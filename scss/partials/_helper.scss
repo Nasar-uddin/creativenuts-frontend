@@ -19,12 +19,29 @@
 
 .heading-one{
     font-weight: 500;
-    font-size: 1.875rem;
+    font-size: 2rem;
     line-height: 150%;
 }
 .heading-two{
     font-weight: 500;
+    line-height: 150%;
     font-size: 1.5rem;
+}
+.heading-small{
+    font-weight: 500;
+    line-height: 150%;
+    font-size: 1.125rem;
+}
+.paragraph-small{
+    font-size: 0.9rem;
+    line-height: 1.6rem;
+    font-weight: 300;
+}
+.p-bold{
+    font-weight: bold;
+}
+.p-medium{
+    font-weight: 500;
 }
 .section-padding-a{
     padding-top: 5rem;
@@ -37,11 +54,18 @@
 .section-padding-b{
     padding-bottom: 5rem;
 }
+.sp-30{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
 .sp-100{
     @include mqmiw(900px){
         padding-left: 7.5rem;
         padding-right: 7.5rem;
     }
+}
+.lh-110{
+    line-height: 110%;
 }
 .pa-0{
     padding: 0 !important;
@@ -78,8 +102,26 @@
         padding-bottom: 1rem;
     }
 }
-.mb-1{
-    margin-bottom: 0.5rem;
+.ml-0{
+    margin-left: 0 !important;
+}
+.ml-1{
+    margin-left: 0.5rem;
+}
+.ml-1{
+    margin-left: 1rem;
+}
+.mr-0{
+    margin-right: 0;
+}
+.mr-0{
+    margin-right: 0;
+}
+.mr-1{
+    margin-right: 0.5rem;
+}
+.mb-2{
+    margin-bottom: 1rem;
 }
 .mb-2{
     margin-bottom: 1rem;
@@ -111,6 +153,9 @@
 .primary-text{
     color: $primary;
 }
+.op-50{
+    opacity: 0.5;
+}
 .flex {
     display: flex;
     flex-wrap: wrap;
@@ -133,6 +178,28 @@
         color: $dark;
     }
 }
+.my-btn{
+    background-color: $dark;
+    border: 2px solid $dark;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 0.625rem 2.5rem;
+    color: $white;
+    cursor: pointer;
+    transition: 0.3s;
+    &:hover{
+        background-color: $white;
+        border: 2px solid $dark;
+        color: $dark;
+    }
+}
+.img-rounded{
+    border-radius: 10px;
+}
+.w-99{
+    width:99%;
+}
+
 .footer-link{
     font-size: 0.9rem;
     font-weight: 300;

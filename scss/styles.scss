@@ -6,7 +6,8 @@ $primary: #F2994A;
 @import "./partials/helper";
 
 body{
-    font-family: 'Montserrat', sans-serif;
+    // font-family: 'Montserrat', sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-size: 16px;
     color: $dark;
     @include mqmxw(600px){
@@ -233,3 +234,43 @@ footer{
     }
 }
 // end of the footer style
+
+// ---------------------------------------------------------------------------------------------------
+
+// about us page design
+
+
+// banner design
+.banner{
+    color:$white;
+    background-size: cover;
+    background-position: center;
+    .title{
+        font-size: 3.5rem;
+        font-weight: 600;
+        line-height: 150%;
+        text-transform: uppercase;
+        margin: 0;
+    }
+}
+.about-us{
+    background-image: linear-gradient(rgba(0,0,0,0.25),rgba(0,0,0,0.25)),url('../img/ban-about.jpg');
+}
+.services{
+    background-image: linear-gradient(rgba(0,0,0,0.25),rgba(0,0,0,0.25)),url('../img/ban-project.jpg');
+}
+// end of the banner design
+
+// start of the planing section
+.planing{
+    color: $white;
+    .planing-heading{
+        font-size: 1.875rem;
+        .planing-number{
+            font-size: 4rem;
+        }
+    }
+}
+// end of the planing section
+
+

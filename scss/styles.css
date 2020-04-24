@@ -6,13 +6,34 @@
 
 .heading-one {
   font-weight: 500;
-  font-size: 1.875rem;
+  font-size: 2rem;
   line-height: 150%;
 }
 
 .heading-two {
   font-weight: 500;
+  line-height: 150%;
   font-size: 1.5rem;
+}
+
+.heading-small {
+  font-weight: 500;
+  line-height: 150%;
+  font-size: 1.125rem;
+}
+
+.paragraph-small {
+  font-size: 0.9rem;
+  line-height: 1.6rem;
+  font-weight: 300;
+}
+
+.p-bold {
+  font-weight: bold;
+}
+
+.p-medium {
+  font-weight: 500;
 }
 
 .section-padding-a {
@@ -29,11 +50,20 @@
   padding-bottom: 5rem;
 }
 
+.sp-30 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
 @media screen and (min-width: 900px) {
   .sp-100 {
     padding-left: 7.5rem;
     padding-right: 7.5rem;
   }
+}
+
+.lh-110 {
+  line-height: 110%;
 }
 
 .pa-0 {
@@ -84,8 +114,32 @@
   }
 }
 
-.mb-1 {
-  margin-bottom: 0.5rem;
+.ml-0 {
+  margin-left: 0 !important;
+}
+
+.ml-1 {
+  margin-left: 0.5rem;
+}
+
+.ml-1 {
+  margin-left: 1rem;
+}
+
+.mr-0 {
+  margin-right: 0;
+}
+
+.mr-0 {
+  margin-right: 0;
+}
+
+.mr-1 {
+  margin-right: 0.5rem;
+}
+
+.mb-2 {
+  margin-bottom: 1rem;
 }
 
 .mb-2 {
@@ -128,6 +182,10 @@
   color: #F2994A;
 }
 
+.op-50 {
+  opacity: 0.5;
+}
+
 .flex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -163,6 +221,33 @@
   color: #232323;
 }
 
+.my-btn {
+  background-color: #232323;
+  border: 2px solid #232323;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 5px;
+  padding: 0.625rem 2.5rem;
+  color: #ffffff;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.my-btn:hover {
+  background-color: #ffffff;
+  border: 2px solid #232323;
+  color: #232323;
+}
+
+.img-rounded {
+  border-radius: 10px;
+}
+
+.w-99 {
+  width: 99%;
+}
+
 .footer-link {
   font-size: 0.9rem;
   font-weight: 300;
@@ -189,7 +274,7 @@
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-size: 16px;
   color: #232323;
 }
@@ -435,5 +520,41 @@ footer .social-icons a {
 
 footer .bottom-footer {
   background-color: #333333;
+}
+
+.banner {
+  color: #ffffff;
+  background-size: cover;
+  background-position: center;
+}
+
+.banner .title {
+  font-size: 3.5rem;
+  font-weight: 600;
+  line-height: 150%;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.about-us {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0.25))), url("../img/ban-about.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("../img/ban-about.jpg");
+}
+
+.services {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0.25))), url("../img/ban-project.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("../img/ban-project.jpg");
+}
+
+.planing {
+  color: #ffffff;
+}
+
+.planing .planing-heading {
+  font-size: 1.875rem;
+}
+
+.planing .planing-heading .planing-number {
+  font-size: 4rem;
 }
 /*# sourceMappingURL=styles.css.map */
