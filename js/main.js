@@ -7,4 +7,5 @@ document.addEventListener('DOMContentLoaded', function () {
 	var instances = M.Carousel.init(heroCarousel[1], {
 		dist:0,
 	});
+	
 });

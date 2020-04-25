@@ -27,6 +27,10 @@
     line-height: 150%;
     font-size: 1.5rem;
 }
+.heading-large{
+    font-weight: 500;
+    font-size: 3.5rem;
+}
 .heading-small{
     font-weight: 500;
     line-height: 150%;
@@ -46,6 +50,10 @@
 .section-padding-a{
     padding-top: 5rem;
     padding-bottom: 5rem;
+}
+.section-padding-a-max{
+    padding-top: 6.5rem;
+    padding-bottom: 6.5rem;
 }
 .section-padding-a-min{
     padding-top: 2.5rem;
@@ -120,11 +128,14 @@
 .mr-1{
     margin-right: 0.5rem;
 }
-.mb-2{
-    margin-bottom: 1rem;
+.mb-1{
+    margin-bottom: 0.5rem;
 }
 .mb-2{
     margin-bottom: 1rem;
+}
+.mb-3{
+    margin-bottom: 3.75rem;
 }
 .mt-1{
     margin-top: 0.5rem;
@@ -193,11 +204,34 @@
         color: $dark;
     }
 }
+.my-btn-primary{
+    background-color: $primary;
+    border: 2px solid $primary;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 0.625rem 2.5rem;
+    color: $white;
+    cursor: pointer;
+    transition: 0.3s;
+    &:hover{
+        background-color: $white;
+        color: $dark;
+    }
+}
 .img-rounded{
     border-radius: 10px;
 }
 .w-99{
     width:99%;
+}
+
+.card{
+    .card-content{
+        padding: 1.25rem 0.625rem 1.875rem 0.625rem;
+    }
+}
+.card-shadow{
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.05);
 }
 
 .footer-link{
